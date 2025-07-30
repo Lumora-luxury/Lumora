@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lumora | Fashion & Fragrance</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #fff; color: #222; }
+    header { background: #000; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 10px; text-decoration: none; font-weight: bold; }
+    .hero { background: url('https://i.imgur.com/nOeM8Tn.jpg') center/cover no-repeat; height: 250px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2em; }
+    .section { padding: 40px 20px; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+    .card { background: #f9f9f9; border-radius: 10px; padding: 15px; text-align: center; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .card img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+    .card h3 { margin: 10px 0 5px; }
+    .card p { margin-bottom: 10px; font-weight: bold; }
+    .card a { display: inline-block; background: #000; color: #fff; padding: 8px 15px; border-radius: 5px; text-decoration: none; }
+    footer { background: #000; color: #fff; text-align: center; padding: 20px; }
+    @media(max-width: 600px) {
+      .hero { font-size: 1.5em; height: 180px; padding: 20px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lumora</h1>
+  <nav>
+    <a href="#products">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  Premium Clothes & Perfumes
+</section>
+
+<section class="section" id="products">
+  <h2 style="text-align:center;">Our Products</h2>
+  <div class="products">
+    <!-- Product 1 -->
+    <div class="card">
+      <img src="https://i.imgur.com/QLUflvK.jpg" alt="T-Shirt">
+      <h3>Classic T-Shirt</h3>
+      <p>₹99</p>
+      <a href="https://wa.me/919730222878?text=I%20want%20to%20order%20Classic%20T-Shirt">Order Now</a>
+    </div>
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="https://i.imgur.com/ZymkjLr.jpg" alt="Perfume">
+      <h3>Elegant Perfume</h3>
+      <p>₹149</p>
+      <a href="https://wa.me/919730222878?text=I%20want%20to%20order%20Elegant%20Perfume">Order Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2 style="text-align:center;">Contact Us</h2>
+  <p style="text-align:center;">Need help or custom orders? <br/> Chat with us on WhatsApp: <strong>+91 97302 22878</strong></p>
+</section>
+
+<footer>
+  © 2025 Lumora. Built with love in India.
+</footer>
+
+</body>
+</html>
